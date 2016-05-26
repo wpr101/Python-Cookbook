@@ -18,3 +18,6 @@ print(b.sum(axis=0))
 
 #sum along rows
 print(b.sum(axis=1))
+
+r = np.random.standard_normal((4,3))
+print(r)
