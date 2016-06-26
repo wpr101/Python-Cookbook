@@ -16,4 +16,4 @@ def countdown(n):
 	while n > 0:
 		n -= 1
 
-countdown(10000000000)
+countdown(100000000)
