@@ -1,0 +1,6 @@
+python -m cProfile -s cumulative test.py
+
+/usr/bin/time --verbose python test.py
+
+strace python test.py
+strace -e trace=open,close date python test.py
