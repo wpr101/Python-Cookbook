@@ -10,15 +10,15 @@ def isPalindrome(text):
 
     print(found)
 
+
 def betterPalindrome(text):
-    #[begin:end:step]
+    # [begin:end:step]
     print(text == text[::-1])
+
 
 def otherPalindrome(text):
     print(text == ''.join(reversed(text)))
-            
-        
 
-#isPalindrome("xpopx")
-#betterPalindrome("xpopx")
+# isPalindrome("xpopx")
+# betterPalindrome("xpopx")
 otherPalindrome("xpopx")
