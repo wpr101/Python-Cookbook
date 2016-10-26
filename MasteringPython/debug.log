@@ -1,0 +1,5 @@
+[2016-10-24 12:51:06,426] DEBUG    root         debug
+[2016-10-24 12:51:06,426] INFO     root         info
+[2016-10-24 12:51:06,427] WARNING  some         warning
+[2016-10-24 12:51:06,427] ERROR    some         error
+[2016-10-24 12:51:06,427] CRITICAL some.other   critical
