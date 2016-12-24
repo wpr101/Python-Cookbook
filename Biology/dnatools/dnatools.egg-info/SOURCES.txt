@@ -1,0 +1,9 @@
+README.txt
+setup.py
+dnatools/__init__.py
+dnatools/dna_translation.py
+dnatools.egg-info/PKG-INFO
+dnatools.egg-info/SOURCES.txt
+dnatools.egg-info/dependency_links.txt
+dnatools.egg-info/requires.txt
+dnatools.egg-info/top_level.txt
