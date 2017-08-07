@@ -7,6 +7,7 @@ SECRET_KEY = 'our_secret'
 def index(): 
     return 'hello world'
 
+#https://www.youtube.com/watch?v=J5bIPtEbS0Q
 def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
