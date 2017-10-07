@@ -10,8 +10,11 @@ echo "3 Save and push to your branch"
 read choice
 
 if (("$choice" == "1")); then
-  echo "'Create."
-  git checkout -b "new-feature"
+  echo "Create."
+  echo "What do you want to name your branch?"
+  read name
+
+  git checkout -b "$name"
   git push -u origin new-feature
 
 elif (("$choice" == "2")); then
